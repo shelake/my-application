@@ -1,0 +1,53 @@
+.container {
+  max-height: 80%;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.live-chat {
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.message-container {
+  margin-bottom: 10px;
+}
+
+.sender-left, .sender-right {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: fit-content;
+  margin-bottom: 10px;
+}
+
+.sender-left {
+  background-color: #ffbbba;
+  margin-left: 0;
+}
+
+.sender-right {
+  background-color: #a9b5d9;
+  margin-left: auto;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.message-input .form-outline {
+  flex-grow: 1;
+}
+
+.message-input .btn {
+  margin-left: 10px;
+}

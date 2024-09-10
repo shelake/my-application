@@ -1,0 +1,136 @@
+/* Container for the entire friend list section */
+.friend-list {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Carousel container styles */
+.carousel .carousel-wrapper {
+  margin: 0 auto;
+}
+
+/* Styles for each card */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/* Container for friend suggestions, friends, and pending requests */
+.friends-container,
+.pending-requests-container,
+.friend-suggestions-container {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Flexbox styles to display cards */
+.friends,
+.pending-requests,
+.friend-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Carousel specific styles */
+.carousel .carousel-slider {
+  position: relative;
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.carousel .carousel-control-prev {
+  left: 10px;
+}
+
+.carousel .carousel-control-next {
+  right: 10px;
+}
+
+.carousel .carousel-indicators {
+  bottom: 10px;
+}
